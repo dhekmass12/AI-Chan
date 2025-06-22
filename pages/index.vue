@@ -60,7 +60,7 @@
 
 <script setup>
     import { ref } from 'vue'
-    import Replicate from "replicate";
+    import Replicate from "replicate"
 
     // console.log(process.env.REPLICATE_API_TOKEN)
 
@@ -71,9 +71,9 @@
     const order = ref(0)
     const lastOrder = ref(0)
 
-    const replicate = new Replicate({
-        auth: process.env.REPLICATE_API_TOKEN,
-    });
+    // const replicate = new Replicate({
+    //     auth: process.env.REPLICATE_API_TOKEN,
+    // });
 
     function setSourceLang(lang) {
         sourceLang.value = lang

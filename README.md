@@ -22,3 +22,5 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 - https://replicate.com/p/xvqvvr2eg9rme0cqjq78jnj43r
 - https://replicate.com/p/y5rrpxerq9rm80cqjqnssy5akc
 
+## Key:
+- ek-LPzHH9UMiaW9u_SfuMQjD4Lkbsla2_ZIBmovJgZkw
