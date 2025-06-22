@@ -27,7 +27,7 @@ AI-Chan adalah asisten kamu yang dengan setia menemanimu di kala ngoding. AI-Cha
 6. Atau kunjungi website berikut: AI-Chan
 
 ## Technologies Used
-Terima kasih kepada AI-Gemini yang berperan besar dalam berjalannya project ini. Tak lupa juga dengan Nuxt, Vue, dan Tailwind yang berperan dalam menghasilkan front-end dan back-end yang berkualitas. 
+Terima kasih kepada Google Gemini yang berperan besar dalam berjalannya project ini. Tak lupa juga dengan Nuxt, Vue, dan Tailwind yang berperan dalam menghasilkan front-end dan back-end yang berkualitas. 
 
 ## Penggunaan IBM Granite
 IBM granite sangat membantu dalam membangun project ini. IBM Granite saya gunakan untuk men-generate code untuk suatu komponen agar pengerjaan project ini semakin cepat. Contoh penggunannya dapat dilihat di bawah:
