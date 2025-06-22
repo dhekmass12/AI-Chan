@@ -1,6 +1,18 @@
 export const sourceLangConstants = [
     {
-        label: "Latin",
-        value: "latin",
+        label: "Python",
+        value: "python",
+    },
+    {
+        label: "JavaScript",
+        value: "javascript",
+    },
+    {
+        label: "Java",
+        value: "java",
+    },
+    {
+        label: "C++",
+        value: "c++",
     },
 ]

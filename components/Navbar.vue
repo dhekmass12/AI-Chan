@@ -20,7 +20,7 @@
                 <div>
                     <div class="flex space-x-4">
                         <a v-for="item in leftNavigation" :key="item.name" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', item.backgroundColor, 'rounded-md py-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">
-                            <span v-if="item.name === 'Dashboard'">
+                            <span v-if="item.name === 'Translate'">
                                 <img class="h-8 w-auto" style="float:left;" src="/terserah2.png" alt="Homepage" />
                                 <p style="float:left; position: relative; transform: translateY(-50%); top:50%; margin-left: 10px;">{{ item.name }}</p>
                                 <div style="clear: left;"/>
@@ -82,9 +82,9 @@
     import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 
     const leftNavigation = [
-        { name: 'Dashboard', href: '/', current: false, backgroundColor: ''},
-        { name: 'Panduan', href: '/panduan', current: false, backgroundColor: ''},
-        { name: 'Pembaruan', href: '/pembaruan', current: false, backgroundColor: ''},
+        { name: 'Translate', href: '/', current: false, backgroundColor: ''},
+        { name: 'Generate', href: '/generate', current: false, backgroundColor: ''},
+        { name: 'Explain', href: '/explain', current: false, backgroundColor: ''},
     ]
     const rightNavigation = [
         { name: 'Berkontribusi', href: '/berkontribusi', current: false, backgroundColor: '' },

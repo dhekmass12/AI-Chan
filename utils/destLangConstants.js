@@ -1,10 +1,18 @@
 export const destLangConstants = [
     {
-        label: "Latin",
-        value: "latin",
+        label: "Python",
+        value: "python",
     },
     {
-        label: "Jawa",
+        label: "JavaScript",
+        value: "javascript",
+    },
+    {
+        label: "Java",
         value: "java",
+    },
+    {
+        label: "C++",
+        value: "c++",
     },
 ]

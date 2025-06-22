@@ -12,7 +12,7 @@
             <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 <div class="sm:col-span-3 col-span-full">
                     <label for="source-lang" class="block text-sm font-medium leading-6 text-gray-900">
-                        From: <Dropdown :set-lang="setSourceLang" :selected="sourceLang" :value-objs="sourceLangConstants" class="mr-1"/>
+                        Code
                         <!-- <button class="inline-flex justify-center align-middle gap-x-1.5 bg-white px-2 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-50">
                             <input type="file" class="hidden">
                             <FontAwesomeIcon :icon="faFile" class="size-[1.125rem]" />
@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="sm:col-span-3 col-span-full">
-                    <label for="dest-lang" class="block text-sm font-medium leading-6 text-gray-900">To: <Dropdown :set-lang="setDestLang" :selected="destLang" :value-objs="destLangConstants"/></label>
+                    <label for="dest-lang" class="block text-sm font-medium leading-6 text-gray-900">Explanation</label>
                     <div class="mt-2">
                         <textarea disabled id="dest-lang" name="dest-lang" rows="3" 
                             :value="destText"
@@ -70,16 +70,9 @@
     const order = ref(0)
     const lastOrder = ref(0)
 
-    function setSourceLang(lang) {
-        sourceLang.value = lang
-    }
-    function setDestLang(lang) {
-        destLang.value = lang
-    }
-
     function handleSubmit() {
 
-        translateCode(sourceLang.value, destLang.value, sourceText.value, order.value).then(result => {
+        explainCode(sourceText.value, order.value).then(result => {
 
             const order = result.order
             const newText = result.destText
