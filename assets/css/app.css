@@ -1,0 +1,21 @@
+.custom-homepage {
+    position: absolute;
+    left: 50%;
+    top: calc((100vh - 74.75px - 64px) / 2 + 74.75px);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.custom-homepage2{
+    margin-left: 50vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.custom-h1{
+    top: 75px;
+    opacity: 0.5;
+    font-size: 2em;
+    font-weight: bold;
+}
