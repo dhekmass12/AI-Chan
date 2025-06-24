@@ -24,7 +24,7 @@ AI-Chan adalah asisten kamu yang dengan setia menemanimu di kala ngoding. AI-Cha
 3. Install Tailwind
 4. Install Vue
 5. npm run build
-6. Atau kunjungi website berikut: AI-Chan
+6. Atau kunjungi website berikut: [AI-Chan](https://terserah.nuxt.dev/)
 
 ## Technologies Used
 Terima kasih kepada Google Gemini yang berperan besar dalam berjalannya project ini. Tak lupa juga dengan Nuxt, Vue, dan Tailwind yang berperan dalam menghasilkan front-end dan back-end yang berkualitas. 
