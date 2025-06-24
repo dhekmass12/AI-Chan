@@ -8,21 +8,19 @@
 
 <template>
     <div>
+        <div class="bg-[#2596be]">
+            <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                <div class="relative flex h-[4rem] items-center justify-between text-white text-xl font-bold">
+                    Generate
+                </div>
+            </div>
+        </div>
+
         <div class="w-4/5 space-y-12 m-auto">
             <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 <div class="sm:col-span-3 col-span-full">
                     <label for="source-lang" class="block text-sm font-medium leading-6 text-gray-900">
                         Language: <Dropdown :set-lang="setSourceLang" :selected="sourceLang" :value-objs="sourceLangConstants" class="mr-1"/>
-                        <!-- <button class="inline-flex justify-center align-middle gap-x-1.5 bg-white px-2 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-50">
-                            <input type="file" class="hidden">
-                            <FontAwesomeIcon :icon="faFile" class="size-[1.125rem]" />
-                        </button> -->
-                        <!-- <button
-                            class="inline-flex justify-center align-middle gap-x-1.5 bg-white px-2 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-50"
-                            @click="switchLang()"
-                        >
-                            <FontAwesomeIcon :icon="faArrowRightArrowLeft" class="size-[1.125rem]"/>
-                        </button> -->
                     </label>
                     <div class="mt-2">
                         <div class="mt-6 mb-6">
@@ -72,6 +70,8 @@
                     Submit
                 </button>
         </div>
+
+        <img class="fixed bottom-0 left-0 h-[15%] w-[9%]" src="../ai-chan.jpg" />
     </div>
 </template>
 
